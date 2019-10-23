@@ -22,6 +22,6 @@ public class User {
     public static void createUser(String login, String password) {
         User user = new User(login, password);
 
-        FileHelper.writeNewUserToFile(fileHelper.newUser(user),FileHelper.getPATHNAME());
+        FileHelper.writeNewUserToFile(fileHelper.newUser(user),FileHelper.getPATHNAMEUSER());
     }
 }
